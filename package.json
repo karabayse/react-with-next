@@ -1,0 +1,26 @@
+{
+  "name": "react-with-next",
+  "version": "1.0.0",
+  "description": "React with Next.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karabayse/react-with-next.git"
+  },
+  "author": "Kara Bayse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karabayse/react-with-next/issues"
+  },
+  "homepage": "https://github.com/karabayse/react-with-next#readme",
+  "dependencies": {
+    "next": "^5.1.0",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0"
+  }
+}
