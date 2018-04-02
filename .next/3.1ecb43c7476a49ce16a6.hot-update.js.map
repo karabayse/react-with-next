@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./components/prices.js?d7e8"],"names":["Prices","React","component"],"mappings":";;;;;;;;;;;;;;;;;IAAMA,M;;;;;;;;;;EAAeC,MAAMC,S;;;;;;;;;;;;;0BAArBF,M","file":"3.1ecb43c7476a49ce16a6.hot-update.js","sourcesContent":["class Prices extends React.component {\n  \n}\n\n\n\n// WEBPACK FOOTER //\n// ./components/prices.js"],"sourceRoot":""}

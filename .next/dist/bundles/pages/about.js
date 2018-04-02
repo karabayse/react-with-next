@@ -78,8 +78,11 @@ module.exports =
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__navbar__ = __webpack_require__("./components/navbar.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head__ = __webpack_require__("next/head");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_head__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__navbar__ = __webpack_require__("./components/navbar.js");
 var _jsxFileName = '/Users/karabayse/Documents/Prime/Tier4/Traversy Media/JavaScript/React/react-with-next/components/layout.js';
+
 
 
 
@@ -89,16 +92,48 @@ var Layout = function Layout(props) {
     {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 4
-      }
-    },
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__navbar__["a" /* default */], {
-      __source: {
-        fileName: _jsxFileName,
         lineNumber: 5
       }
+    },
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      __WEBPACK_IMPORTED_MODULE_1_next_head___default.a,
+      {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 6
+        }
+      },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'title',
+        {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 7
+          }
+        },
+        'Bitcoin Exchange'
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('link', { rel: 'stylesheet', href: 'https://bootswatch.com/4/solar/bootstrap.min.css', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 8
+        }
+      })
+    ),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__navbar__["a" /* default */], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 10
+      }
     }),
-    props.children
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'div',
+      { className: 'container', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11
+        }
+      },
+      props.children
+    )
   );
 };
 
@@ -110,100 +145,133 @@ var Layout = function Layout(props) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__ = __webpack_require__("styled-jsx/style");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link__ = __webpack_require__("next/link");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_link__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("next/link");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
 var _jsxFileName = "/Users/karabayse/Documents/Prime/Tier4/Traversy Media/JavaScript/React/react-with-next/components/navbar.js";
 
 
 
-
 var Navbar = function Navbar() {
-  return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-    "div",
-    {
-      className: "jsx-2457803974",
-      __source: {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    "nav",
+    { className: "navbar navbar-expand navbar-dark bg-dark mb-4", __source: {
         fileName: _jsxFileName,
         lineNumber: 4
       }
     },
-    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-      "ul",
-      {
-        className: "jsx-2457803974",
-        __source: {
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      "div",
+      { className: "container", __source: {
           fileName: _jsxFileName,
           lineNumber: 5
         }
       },
-      __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-        "li",
-        {
-          className: "jsx-2457803974",
-          __source: {
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        "a",
+        { className: "navbar-brand", href: "#", __source: {
             fileName: _jsxFileName,
             lineNumber: 6
           }
         },
-        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-          __WEBPACK_IMPORTED_MODULE_2_next_link___default.a,
-          { href: "/", __source: {
-              fileName: _jsxFileName,
-              lineNumber: 6
-            }
-          },
-          __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-            "a",
-            {
-              className: "jsx-2457803974",
-              __source: {
-                fileName: _jsxFileName,
-                lineNumber: 6
-              }
-            },
-            "Home"
-          )
-        )
+        "Bitcoin Exchange"
       ),
-      __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-        "li",
-        {
-          className: "jsx-2457803974",
-          __source: {
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        "div",
+        { className: "collapse navbar-collapse", __source: {
             fileName: _jsxFileName,
             lineNumber: 7
           }
         },
-        __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-          __WEBPACK_IMPORTED_MODULE_2_next_link___default.a,
-          { href: "/about", __source: {
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          "ul",
+          { className: "navbar-nav ml-auto", __source: {
               fileName: _jsxFileName,
-              lineNumber: 7
+              lineNumber: 8
             }
           },
-          __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-            "a",
-            {
-              className: "jsx-2457803974",
-              __source: {
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "li",
+            { className: "nav-item", __source: {
                 fileName: _jsxFileName,
-                lineNumber: 7
+                lineNumber: 9
               }
             },
-            "About"
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              __WEBPACK_IMPORTED_MODULE_1_next_link___default.a,
+              { href: "/", __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 10
+                }
+              },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "a",
+                { className: "nav-link", __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 10
+                  }
+                },
+                "Home"
+              )
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "li",
+            { className: "nav-item", __source: {
+                fileName: _jsxFileName,
+                lineNumber: 12
+              }
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              __WEBPACK_IMPORTED_MODULE_1_next_link___default.a,
+              { href: "/about", __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 13
+                }
+              },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "a",
+                { className: "nav-link", __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 13
+                  }
+                },
+                "About"
+              )
+            )
           )
         )
       )
-    ),
-    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
-      styleId: "2457803974",
-      css: "ul.jsx-2457803974{background:#333;color:#FFF;list-style:none;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}ul.jsx-2457803974 li.jsx-2457803974{font-size:18px;margin-right:20px;}ul.jsx-2457803974 li.jsx-2457803974 a.jsx-2457803974{color:#FFF;-webkit-text-decoration:none;text-decoration:none;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHMvbmF2YmFyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVNnQixBQUcyQixBQU9ELEFBS0osV0FDVSxJQUxILENBUFAsV0FDSyxNQU9sQixVQU5lLGtCQVdmLHdEQVZBIiwiZmlsZSI6ImNvbXBvbmVudHMvbmF2YmFyLmpzIiwic291cmNlUm9vdCI6Ii9Vc2Vycy9rYXJhYmF5c2UvRG9jdW1lbnRzL1ByaW1lL1RpZXI0L1RyYXZlcnN5IE1lZGlhL0phdmFTY3JpcHQvUmVhY3QvcmVhY3Qtd2l0aC1uZXh0Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJztcblxuY29uc3QgTmF2YmFyID0gKCkgPT4gKFxuICA8ZGl2PlxuICAgIDx1bD5cbiAgICAgIDxsaT48TGluayBocmVmPVwiL1wiPjxhPkhvbWU8L2E+PC9MaW5rPjwvbGk+XG4gICAgICA8bGk+PExpbmsgaHJlZj1cIi9hYm91dFwiPjxhPkFib3V0PC9hPjwvTGluaz48L2xpPlxuICAgIDwvdWw+XG5cbiAgICA8c3R5bGUganN4PntgXG4gICAgICAgIHVsIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiAjMzMzO1xuICAgICAgICAgIGNvbG9yOiAjRkZGO1xuICAgICAgICAgIGxpc3Qtc3R5bGU6IG5vbmU7XG4gICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgfVxuXG4gICAgICAgIHVsIGxpIHtcbiAgICAgICAgICBmb250LXNpemU6IDE4cHg7XG4gICAgICAgICAgbWFyZ2luLXJpZ2h0OiAyMHB4O1xuICAgICAgICB9XG5cbiAgICAgICAgdWwgbGkgYSB7XG4gICAgICAgICAgY29sb3I6ICNGRkY7XG4gICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG4gIDwvZGl2PlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgTmF2YmFyO1xuIl19 */\n/*@ sourceURL=components/navbar.js */"
-    })
-  );
+    )
+  )
+
+  // <div>
+  //   <ul>
+  //     <li><Link href="/"><a>Home</a></Link></li>
+  //     <li><Link href="/about"><a>About</a></Link></li>
+  //   </ul>
+  //
+  //   <style jsx>{`
+  //       ul {
+  //         background: #333;
+  //         color: #FFF;
+  //         list-style: none;
+  //         display: flex;
+  //       }
+  //
+  //       ul li {
+  //         font-size: 18px;
+  //         margin-right: 20px;
+  //       }
+  //
+  //       ul li a {
+  //         color: #FFF;
+  //         text-decoration: none;
+  //       }
+  //     `}</style>
+  // </div>
+  ;
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (Navbar);
@@ -275,6 +343,13 @@ module.exports = __webpack_require__("./pages/about.js");
 
 /***/ }),
 
+/***/ "next/head":
+/***/ (function(module, exports) {
+
+module.exports = require("next/head");
+
+/***/ }),
+
 /***/ "next/link":
 /***/ (function(module, exports) {
 
@@ -286,13 +361,6 @@ module.exports = require("next/link");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
-
-/***/ }),
-
-/***/ "styled-jsx/style":
-/***/ (function(module, exports) {
-
-module.exports = require("styled-jsx/style");
 
 /***/ })
 
