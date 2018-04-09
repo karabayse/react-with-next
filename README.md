@@ -6,4 +6,4 @@ Bitcoin Exchange application pulls pricing from the CoinDesk API and displays it
 
 Uses Bootswatch Solar theme
 
-'npm run dev' to start server on localhost 3000
+```npm run dev``` to start server on localhost 3000
